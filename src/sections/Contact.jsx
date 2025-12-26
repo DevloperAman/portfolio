@@ -85,17 +85,13 @@ const Contact = () => {
               <div className="mt-10 space-y-6 text-gray-300 text-sm">
                 <div>
                   <p className="font-semibold text-white">E-mail:</p>
-                  <p>nafi2125@gmail.com</p>
+                  <p>ak1804309@gmail.com</p>
                 </div>
 
-                <div>
-                  <p className="font-semibold text-white">Location:</p>
-                  <p>3891 Ranchview Dr. Richardson</p>
-                </div>
 
                 <div>
                   <p className="font-semibold text-white">Contact:</p>
-                  <p>01245789321</p>
+                  <p>8988241867</p>
                 </div>
               </div>
             </div>
