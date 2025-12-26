@@ -25,6 +25,7 @@ export default async function handler(req, res) {
         <p><b>Name:</b> ${name}</p>
         <p><b>Phone:</b> ${phone}</p>
          <p><b>Subject:</b> ${subject}</p>
+         <p><b>Email:</b> ${email}</p>
         <p><b>Message:</b></p>
         <p>${message}</p>
       `,
