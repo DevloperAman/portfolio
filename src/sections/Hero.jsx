@@ -9,7 +9,7 @@ const Hero = () => {
   const canvasRef = useRef(null);
   const appRef = useRef(null);
   const animatedWord = useTypewriter(
-    ["Frontend Developer", "Web Developer", "Creative Designer"],
+    ["Ideate", "Craft", "Polish"],
     90,
     1400
   );
@@ -47,10 +47,10 @@ const Hero = () => {
       <canvas ref={canvasRef} className="hero-canvas" />
 
       <div className="hero-content relative z-10">
-        <span className="text-white text-xl gap-6">HELLO</span>
+        <span className="text-white text-xl gap-6">AMAN KUMAR</span>
 
         <h1 className="text-white text-4xl md:text-7xl font-bold text-center leading-tight">
-          I’m Aman Kumar <br />A{" "}
+          {" "}
           <span className="text-primary inline-flex items-center">
             {animatedWord}
             <span
@@ -67,14 +67,14 @@ const Hero = () => {
         </h1>
 
         <p className="my-4 max-w-3xl text-white text-center text-md">
-          I design and develop high-performance, SEO-optimized websites and web
-          applications using React.js with modern JavaScript. Fast and scalable
-          solutions for eCommerce and business platforms are my specialty, with
-          attention to clean code, site performance, and conversion-driven user
-          experiences across WordPress, Shopify, and custom builds.
+          Creative mind shaping digital experiences, focused on building visually striking products that blend UI/UX aesthetics. From pixel-perfect UI to smooth interactions with a strong eye for visual storytelling, interaction design, and front-end craftsmanship.
         </p>
 
-        <GlassButton>View Portfolio</GlassButton>
+        <GlassButton onClick={() => {
+    document
+      .getElementById("portfolio")
+      ?.scrollIntoView({ behavior: "smooth" });
+  }}>View Portfolio</GlassButton>
       </div>
     </section>
   );

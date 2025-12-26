@@ -15,7 +15,7 @@ const About = () => {
                 border border-[#13b4fd]/30"
               >
                 <div className="tmp-light-1 light-top-left-1" />
-                <img src="/about.jpg" className="w-full h-[650px] object-cover"/>
+                <img src="/about.jpg" className="w-full h-[550px] object-cover"/>
               </div>
             </div>
           </div>
@@ -26,12 +26,11 @@ const About = () => {
             </p>
 
             <h2 className="mt-3 text-4xl font-bold text-white leading-tight">
-              Build High-Performance Digital Solutions with Me
+              From Idea to Interface
             </h2>
 
             <p className="mt-5 text-gray-400 max-w-xl">
-              I’m Aman Kumar, a creative web developer with specialties including developing fast, productive, and SEO-optimized web sites and modern web apps. I have specialization in developing projects with React.js technology, developing responsive interfaces and productive solutions with a focus on smooth user experiences.<br /><br />
-              I specialize in working with React.js, JavaScript, Node.js, HTML, CSS, Tailwind CSS, Redux, and e-commerce platforms including WordPress, Shopify, and Wix.
+             I’m Aman Kumar, a creative designer and front-end developer shaping meaningful digital experiences. I build visually striking, user-centric products by blending UI/UX aesthetics with clean, responsive development. From pixel-perfect interfaces to smooth interactions, I focus on visual storytelling, interaction design, and front-end craftsmanship.
             </p>
 
             <div className="mt-8 grid sm:grid-cols-2 gap-6">
