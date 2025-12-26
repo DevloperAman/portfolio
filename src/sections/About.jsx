@@ -30,7 +30,8 @@ const About = () => {
             </h2>
 
             <p className="mt-5 text-gray-400 max-w-xl">
-             I’m Aman Kumar, a creative designer and front-end developer shaping meaningful digital experiences. I build visually striking, user-centric products by blending UI/UX aesthetics with clean, responsive development. From pixel-perfect interfaces to smooth interactions, I focus on visual storytelling, interaction design, and front-end craftsmanship.
+             I’m Aman Kumar, a creative designer and front-end developer shaping meaningful digital experiences. I build visually striking, user-centric products by blending UI/UX aesthetics with clean, responsive development. From pixel-perfect interfaces to smooth interactions, I focus on visual storytelling, interaction design, and front-end craftsmanship.<br />
+             I work with modern technologies including HTML, CSS, JavaScript, React.js, Tailwind CSS, Bootstrap, Redux, Node.js, and CMS platforms such as WordPress, Shopify, and Wix.
             </p>
 
             <div className="mt-8 grid sm:grid-cols-2 gap-6">
