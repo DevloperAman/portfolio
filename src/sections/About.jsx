@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about" className="py-section">
+    <section id="about" className="py-section z-50">
       <div className="max-w-layout mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 ">
           <div className="space-y-6">
@@ -43,7 +43,7 @@ const About = () => {
                 >
                   <div className="tmp-light light-top-left" />
 
-                  <div className="relative z-10">
+                  <div className="relative z-20">
                     <div className="w-14 h-14 rounded-full border flex items-center justify-center">
                       <IoIosCode size={30} className="text-cyan-400 text-xl" />
                     </div>
@@ -66,7 +66,7 @@ const About = () => {
                 >
                   <div className="tmp-light light-top-left" />
 
-                  <div className="relative z-10">
+                  <div className="relative z-20">
                     <div className="w-14 h-14 rounded-full border flex items-center justify-center">
                       <FaReact size={30} className="text-cyan-400 text-xl" />
                     </div>

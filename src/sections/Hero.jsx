@@ -46,7 +46,7 @@ const Hero = () => {
       <VerticalBeams />
       <canvas ref={canvasRef} className="hero-canvas" />
 
-      <div className="hero-content relative z-10">
+      <div className="hero-content relative z-1">
         <span className="text-white text-xl gap-6">AMAN KUMAR</span>
 
         <h1 className="text-white text-4xl md:text-7xl font-bold text-center leading-tight">

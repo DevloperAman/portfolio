@@ -30,7 +30,7 @@ const Resume = () => {
         relative overflow-hidden
         w-full h-[250px]
         bg-gradient-to-r from-[#050d13] via-[#07151e] to-[#050d13]
-        border-y border-white/10
+        border-y border-white/10 z-4
       "
     >
       <div
@@ -38,7 +38,7 @@ const Resume = () => {
         className="
           pointer-events-none
           absolute top-0 left-0
-          w-[300px] h-[300px]
+          w-[100px] h-[100px]
           rounded-full
           bg-[#13b4fd]
           blur-[100px]

@@ -1,6 +1,6 @@
 const EducationExperience = () => {
   return (
-    <section id="education-experience" className="py-section">
+    <section id="education-experience" className="py-section z-4">
       <div className="max-w-layout mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto">
           <p className="text-primary uppercase text-sm tracking-widest">

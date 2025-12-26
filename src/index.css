@@ -20,16 +20,16 @@ body,
 .hero-canvas {
   position: absolute;
   inset: 0;
-  z-index: 5;
+  z-index: 1;
 }
 
 .beam-line {
-  z-index: 8;
+  z-index: 10;
 }
 
 .hero-content {
   position: relative;
-  z-index: 20;
+  z-index: 10;
 }
 
 
@@ -38,23 +38,20 @@ body,
   min-height: 100vh;
 }
 
-/* HERO BACKGROUND COLOR */
 .hero-bg {
   position: absolute;
   inset: 0;
-  z-index: 0;
+  z-index: 1;
 
  background-color: #010a10;
 }
 
-/* CANVAS */
 .hero-canvas {
   position: absolute;
   inset: 0;
   z-index: 1;
 }
 
-/* CONTENT */
 .hero-content {
   position: relative;
   z-index: 10;
@@ -83,7 +80,6 @@ body,
   transition: background 0.4s ease, box-shadow 0.4s ease;
 }
 
-/* HOVER STATE */
 .group:hover .button-bg {
   background:
     linear-gradient(
@@ -152,7 +148,6 @@ body,
   transform: inherit;
 }
 
-/* Contact form inputs */
 .contact-input {
   width: 100%;
   padding: 14px 18px;
@@ -182,7 +177,6 @@ body,
   overflow: hidden;
 }
 
-/* Vertical guide line */
 .beam-line {
   position: absolute;
   top: 0;
@@ -192,7 +186,6 @@ body,
   overflow: hidden;
 }
 
-/* Flowing blue light */
 .beam-flow {
   position: absolute;
   top: -30%;
@@ -222,7 +215,6 @@ body,
 
 
 
-/* Independent timing */
 .beam-flow.delay-0 {
   animation-delay: 0s;
 }
@@ -235,7 +227,6 @@ body,
   animation-delay: 3s;
 }
 
-/* Animation */
 @keyframes beamMove {
   0% {
     top: -30%;

@@ -54,7 +54,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-section">
+    <section id="contact" className="py-section z-4">
       <div className="max-w-layout mx-auto px-6">
         <div
           className="
