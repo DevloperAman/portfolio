@@ -5,8 +5,6 @@ export default async function handler(req, res) {
     if (req.method !== "POST") {
       return res.status(405).json({ message: "Method not allowed" });
     }
-
-    // 🔴 THIS IS REQUIRED ON VERCEL
     if (!process.env.RESEND_API_KEY) {
       return res.status(500).json({
         success: false,

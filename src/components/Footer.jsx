@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function Footer() {
+const Footer = () => {
   const [showTop, setShowTop] = useState(false);
 
   useEffect(() => {
@@ -46,3 +46,5 @@ export default function Footer() {
     </>
   );
 }
+
+export default Footer;

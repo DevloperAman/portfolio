@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function useTypewriter(words, speed = 100, pause = 1500) {
+const useTypewriter = (words, speed = 100, pause = 1500) => {
     const [index, setIndex] = useState(0);
     const [text, setText] =useState("");
     const [isDeleting, setIsDeleting] = useState(false);
@@ -27,3 +27,5 @@ export default function useTypewriter(words, speed = 100, pause = 1500) {
     }, [text, isDeleting,index,words,speed,pause]);
     return text;
 }
+
+export default useTypewriter;

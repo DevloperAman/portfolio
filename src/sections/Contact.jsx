@@ -153,13 +153,11 @@ const Contact = () => {
                 />
 
                 <div className="md:col-span-2 mt-4">
-                  {/* 🔴 FIX: submit type */}
                   <GlassButton type="submit">
                     {status === "loading" ? "Sending..." : "Submit"}
                   </GlassButton>
                 </div>
 
-                {/* 🔹 FEEDBACK */}
                 {status === "loading" && (
                   <p className="md:col-span-2 text-blue-400">
                     Sending message...
