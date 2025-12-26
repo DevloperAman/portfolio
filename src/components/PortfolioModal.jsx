@@ -14,7 +14,7 @@ const PortfolioModal = ({ project, onClose }) => {
             <img
               src={project.image}
               alt={project.title}
-              className="h-full w-full object-contain"
+              className="h-full w-full object-cover"
             />
           </div>
 

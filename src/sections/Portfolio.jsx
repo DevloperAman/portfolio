@@ -2,16 +2,19 @@ import { useState } from "react";
 import { portfolioData } from "../data/portfolioData";
 import PortfolioModal from "../components/PortfolioModal";
 
-const tabs = ["All", "Frontend", "Full Stack", "Ecommerce"];
+const tabs = ["All", "Full Stack", "Ecommerce", "Other"];
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState("All");
   const [selected, setSelected] = useState(null);
 
   const filtered =
-    activeTab === "All"
-      ? portfolioData
-      : portfolioData.filter((p) => p.category === activeTab);
+  activeTab === "All"
+    ? portfolioData
+    : portfolioData.filter(project =>
+        project.category.includes(activeTab)
+      );
+
 
   return (
     <section id="portfolio" className="py-section">
