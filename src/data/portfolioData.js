@@ -1,13 +1,13 @@
 export const portfolioData = [
   {
     id: 1,
-    title: "SaaS Website Design",
+    title: "Media Advisor – Digital Consulting Website",
     category: "Frontend",
     description:
-      "A modern SaaS landing page with responsive layout, performance optimization, and SEO-friendly structure.",
-    tech: ["React", "Tailwind", "JavaScript"],
-    image: "/images/saas.jpg",
-    link: "https://yourprojectlink.com",
+      "Media Advisor is a modern, responsive digital consulting website developed to represent a media and marketing advisory brand. The project emphasizes clean UI/UX, SEO readiness, performance optimization, and production-grade deployment using GitHub and Vercel.",
+    tech: ["Html", "Css", "JavaScript", "Bootstrap"],
+    image: "/Media-Advisor.png",
+    link: "https://media-advisor.vercel.app/",
   },
   {
     id: 2,
